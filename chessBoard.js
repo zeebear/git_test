@@ -6,11 +6,9 @@ let output = "";
 for (let counter = 1; counter < boardArea; counter++) {
   if (counter % rowLength == 0) {
     output += "\n";
-  }
-  else if (counter % 2 == 1) {
+  } else if (counter % 2 == 1) {
     output += " ";
-  }
-  else if (counter % 2 == 0) {
+  } else if (counter % 2 == 0) {
     output += "#";
   }
 }
